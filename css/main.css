@@ -1,0 +1,191 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a {
+	color: #fff;
+}
+
+
+.brand-logo {
+	color: #fff;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #fff;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.page-footer {
+  margin: 0;
+}
+
+/*********** CUSTOMIZED *********************/
+/*
+.dropdown-content li>a,
+.dropdown-content li>span {
+  color: #29b6f6;
+}
+*/
+
+ul.social li {
+  display: inline;
+}
+
+.card .card-action a {
+  color: #29b6f6;
+}
+
+ul.card-link li {
+  display: inline;
+}
+
+.side-avatar {
+  height: 48px;
+  width: 48px;
+}
+
+.side-logo {
+  height: 64px;
+  width: 64px;
+}
+
+.fixed-action-btn {
+  bottom: 45px;
+  right: 24px;
+}
+
+.side-list {
+	color: #29b6f6;
+}
+
+.side-nav a {
+  color: #fff;
+}
+
+.side-nav a:hover {
+  color: #29b6f6;
+}
+
+.collapsible-header {
+  height: 6rem;
+}
+
+.coll-img {
+  height: 64px;
+  width: 64px;
+}
+
+.collapsible-header {
+  padding: 1.5rem 1rem;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+/******************* IO ********************************/
+
+blockquote {
+    border-color: #2196F3;
+    margin: 0;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -mox-box-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+blockquote .b-icon {
+    -mox-box-flex: 0 0 50px;
+    -ms-flex: 0 0 50px;
+    -webkit-flex: 0 0 50px;
+    flex: 0 0 50px
+}
+blockquote .b-text {
+    -mox-box-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+	align-itmes: left;
+}
+
+.io-profile {
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+.io-profile .io-profile-header {
+    -mox-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    max-height: 120px
+}
+.io-profile .io-profile-details {
+    width: 100%;
+    padding-left: 50px
+}
+@media only screen and (max-width: 460px) and (min-width: 0) {
+    blockquote {
+        font-size: 12px
+    }
+    .io-content-header {
+        padding-left: 20px
+    }
+    .io-content-header>h1 {
+        font-size: 2.5rem
+    }
+    .section-date,
+    .section-title {
+        font-size: 1rem
+    }
+    .io-profile .io-profile-details,
+    .io-profile .io-profile-header {
+        padding-left: 20px
+    }
+    .img-wrap {
+        -mox-box-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        -webkit-flex: 0 0 50%;
+        flex: 0 0 50%
+    }
+}
+
+/********************* CUSTOM ****************************/
+
+.connect-action {
+	border-top: 1px solid rgba(160,160,160,0.2);
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.contact {
+	margin: 0 auto auto 0;
+}
