@@ -109,3 +109,117 @@
 .social-connect li a {
  background-color: #D3D3D3;   
 }
+
+/*******************************/
+
+.social-group {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+}
+
+.social-group li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-group.social-card .social-list {
+	display: inline;
+	margin: 0 -5px;
+}
+
+.social-group.social-card {
+	border-top: 1px solid rgba(160,160,160,0.2);
+}
+
+.social-group a.icon-twitter:hover {
+	background-color: #55acee;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-google:hover {
+	background-color: #bd3518;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-linkedin:hover {
+	background-color: #007bb7;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-github:hover {
+	background-color: #303030;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-twitter {
+	background-color: #55acee;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-google {
+	background-color: #bd3518;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-linkedin {
+	background-color: #007bb7;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-github {
+	background-color: #303030;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.social-group a.icon-github:hover i,
+.social-group a.icon-twitter:hover i,
+.social-group a.icon-google:hover i,
+.social-group a.icon-linkedin:hover i {
+	color: #fff;
+}
+
+.social-item .social-list a {
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	font-size: 22px;
+}
+
+.social-item .social-list i {
+	margin: 0;
+	line-height: 50px;
+	text-align: center;
+}
+
+.btn-floating:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.btn-floating i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-group .social-list a {
+ background-color: #D3D3D3;   
+}
