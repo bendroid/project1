@@ -7,12 +7,6 @@
     // Initialize collapsible (uncomment the line below if you use the dropdown variation)
     $('.collapsible').collapsible();
 
-    var $container = $('#masonry-grid');
-    // initialize
-    $container.masonry({
-      columnWidth: '.col',
-      itemSelector: '.col',
-    });
 
     $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
@@ -31,6 +25,10 @@
     $('.scrollspy').scrollSpy();
   });
   
+  
+  $(document).ready(function(){
+    $('.tooltipped').tooltip({delay: 50});
+  });
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

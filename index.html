@@ -7,11 +7,12 @@
 <title>TEMP</title>
 
 <!-- CSS  -->
-<link rel="stylesheet" href="css/materialize.min.css"/>
+<link rel="stylesheet" href="css/materialize.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="css/main.css"/>
-<link rel="stylesheet" href="css/test.css"/>
-<link rel="stylesheet" href="css/social.css"/>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/para.css">
+<link rel="stylesheet" href="css/test.css">
+<link rel="stylesheet" href="css/social.css">
 <link rel="stylesheet" href="css/spin.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
@@ -20,9 +21,10 @@
 <div class="navbar-fixed">
 <nav class="light-blue">
 <div class="nav-wrapper container">
-<a id="logo-container" href="#" class="brand-logo">Ben Collins</a>
-<ul class="right"><img src="img/ben-sm.jpg"class="responsive-img my-logo">
+<ul class="left">
+<li><a href="#!" class="btn btn-social my-logo"></a></li>
 </ul>
+<a id="logo-container" href="#" class="brand-logo">Ben Collins</a>
 <ul class="right hide-on-med-and-down">
 <li><a href="#">Navbar</a></li>
 <li><a class="dropdown-button" href="#!" data-activates="dropdownProjects">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -70,7 +72,7 @@
 <div class="row">
 <h1 class="center">Ben Collins</h1>
 <div class="col s12 m10 offset-m1 l10 offset-l1">
-<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/">Materialize CSS</a> framework and <a href="http://fontawesome.io/">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/">Udacity Nanodegree</a>. Thank you for your visit!</p>
+<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> framework and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/" target="_blank">Udacity Nanodegree</a>. Thank you for your visit!</p>
 </div><!-- ./col -->
 </div><!-- ./row -->
 </header>
@@ -84,19 +86,30 @@
 <div class="card hoverable">
 <div class="card-image">
 <img class="responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Ben">
-<span class="card-title">Card Title</span>
+<span class="card-title">Project 1</span>
 </div>
 <div class="card-content">
 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
 </div><!-- ./card-content -->
-<div class="card-action">
-<ul class="social-network social-circle social-card">
-<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-</ul>
-<a href="#">This is a link</a>
+<div class="card-action center">
+<a class="modal-trigger light-blue white-text z-depth-2 waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Open Modal" href="#project1"><i class="material-icons">add</i></a>
 </div><!-- ./card-action -->
 </div><!-- ./card -->
 </div><!-- ./col -->
+
+
+  <!-- Modal Structure -->
+<div id="project1" class="modal modal-fixed-footer">
+<div class="modal-content">
+<h4><strong>Project 1: </strong>Build a Portfolio Site</h4>
+<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> framework and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/" target="_blank">Udacity Nanodegree</a>. Thank you for your visit!</p>
+</div>
+<div class="modal-footer">
+<a href="#!" class="modal-action light-blue white-text modal-close waves-effect waves-light btn-large">Close</a>
+<a class="black white-text z-depth-2 waves-effect waves-light btn-large tooltipped left" data-position="top" data-delay="50" data-tooltip="Open Github" href="#!"><i class="material-icons fa fa-github"></i></a>
+</div>
+</div>
+
 
 <!-- ============= CARD 2 ============ -->
 <div class="col s12 m4 l4">
@@ -108,11 +121,8 @@
 <div class="card-content">
 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
 </div><!-- ./card-content -->
-<div class="card-action">
-<ul class="social-network social-circle social-card">
-<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-</ul>
-<a href="#">This is a link</a>
+<div class="card-action center">
+<a class="modal-trigger light-blue white-text z-depth-2 waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Open Modal" href="#project1"><i class="material-icons">add</i></a>
 </div><!-- ./card-action -->
 </div><!-- ./card -->
 </div><!-- ./col -->
@@ -127,11 +137,8 @@
 <div class="card-content">
 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
 </div><!-- ./card-content -->
-<div class="card-action">
-<ul class="social-network social-circle social-card">
-<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-</ul>
-<a href="#">This is a link</a>
+<div class="card-action center">
+<a class="modal-trigger light-blue white-text z-depth-2 waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Open Modal" href="#project1"><i class="material-icons">add</i></a>
 </div><!-- ./card-action -->
 </div><!-- ./card -->
 </div><!-- ./col -->
@@ -149,11 +156,8 @@
 <div class="card-content">
 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
 </div><!-- ./card-content -->
-<div class="card-action">
-<ul class="social-network social-circle social-card">
-<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-</ul>
-<a href="#">This is a link</a>
+<div class="card-action center">
+<a class="modal-trigger light-blue white-text z-depth-2 waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Open Modal" href="#project1"><i class="material-icons">add</i></a>
 </div><!-- ./card-action -->
 </div><!-- ./card -->
 </div><!-- ./col -->
@@ -168,11 +172,8 @@
 <div class="card-content">
 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
 </div><!-- ./card-content -->
-<div class="card-action">
-<ul class="social-network social-circle social-card">
-<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-</ul>
-<a href="#">This is a link</a>
+<div class="card-action center">
+<a class="modal-trigger light-blue white-text z-depth-2 waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Open Modal" href="#project1"><i class="material-icons">add</i></a>
 </div><!-- ./card-action -->
 </div><!-- ./card -->
 </div><!-- ./col -->
@@ -187,17 +188,173 @@
 <div class="card-content">
 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
 </div><!-- ./card-content -->
-<div class="card-action">
-<ul class="social-network social-circle social-card">
-<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-</ul>
-<a href="#">This is a link</a>
+<div class="card-action center">
+<a class="modal-trigger light-blue white-text z-depth-2 waves-effect waves-light btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Open Modal" href="#project1"><i class="material-icons">add</i></a>
 </div><!-- ./card-action -->
 </div><!-- ./card -->
 </div><!-- ./col -->
 </div><!-- ./row -->
 </div><!-- ./container -->
 
+<ul class="social-connect social-button">
+<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icon-github"><i class="fa fa-github"></i></a></li>
+<li><a href="https://twitter.com/jaemood/" target="_blank" class="z-depth-2 icon-twitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://plus.google.com/110080867018847121215/" target="_blank" class="z-depth-2 icon-google" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="https://www.linkedin.com/pub/ben-collins/15/663/b43" target="_blank" class="z-depth-2 icon-linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+
+<div class="container">
+<div class="row">
+<div class="col s12 m4 l4">
+<div class="card hoverable">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Ben">
+	  <span class="card-title">Card Title</span>
+    </div>
+    <div class="card-content">
+      <span class="activator grey-text"><h5 class="activator">Card Title<i class="activator material-icons right">more_vert</i></h5>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="grey-text text-darken-4"><h5 class="activator">Card Title</h5><i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  </div>
+
+  
+<div class="col s12 m4 l4">
+<div class="card hoverable">
+<div class="card-image waves-effect waves-block waves-light">
+      <img class="activator responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Ben">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+<!-- ======== SECOND SET ================ -->
+
+<div id="projects" class="project section white">
+  <div class="container">
+    <h2 class="header center">Projects</h2>
+    <p class="grey-text text-darken-3 lighten-3 flow-text">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="min-width: 700px 700px, 100vw" alt="Ben">
+              <span class="card-title">Project 1</span>
+            </div>
+            <div class="card-content">
+			  <h4 class="flow-text">Build a Portfolio Site</h4>
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action center">
+			<ul class="social-connect social-button">
+			<li><a class="modal-trigger light-blue white-text z-depth-2 waves-effect waves-light btn-floating btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Open Modal" href="#project1"><i class="material-icons">add</i></a></li>
+			</ul>
+            </div><!-- ./card action -->
+          </div><!-- ./card -->
+        </div><!-- ./col -->
+        <div class="col s12 m4 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="min-width: 700px 700px, 100vw" alt="Ben">
+              <span class="card-title">Project 2</span>
+            </div>
+            <div class="card-content">
+			  <h4 class="flow-text">Online Resume</h4>
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <ul class="social-connect social-button">
+                <li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icon-github"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div><!-- ./card action -->
+        </div><!-- ./card -->
+      </div><!-- ./col -->
+      <div class="col s12 m4 l4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img class="responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="min-width: 700px 700px, 100vw" alt="Ben">
+            <span class="card-title">Project 3</span>
+          </div>
+          <div class="card-content">
+		    <h4 class="flow-text">Classic Arcade Game Clone</h4>
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <ul class="social-connect social-button">
+              <li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icon-github"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div><!-- ./card action -->
+        </div><!-- ./card -->
+      </div><!-- ./col -->
+    </div><!-- ./row -->
+    <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="min-width: 700px 700px, 100vw" alt="Ben">
+              <span class="card-title">Project 4</span>
+            </div>
+            <div class="card-content">
+			  <h4 class="flow-text">Website Optimization</h4>
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <ul class="social-connect social-button">
+                <li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icon-github"><i class="fa fa-github"></i></a></li>
+              </ul>
+            </div><!-- ./card action -->
+          </div><!-- ./card -->
+        </div><!-- ./col -->
+        <div class="col s12 m4 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="min-width: 700px 700px, 100vw" alt="Ben">
+              <span class="card-title">Project 5</span>
+            </div>
+            <div class="card-content">
+			  <h4 class="flow-text">Neighborhood Map Project</h4>
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <ul class="social-connect social-button">
+                <li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icon-github"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div><!-- ./card action -->
+        </div><!-- ./card -->
+      </div><!-- ./col -->
+      <div class="col s12 m4 l4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img class="responsive-img" src="img/ben-sm.jpg" srcset="img/ben-lg.jpg 1400w, img/ben-md.jpg 700w, img/ben-sm.jpg 400w" sizes="min-width: 700px 700px, 100vw" alt="Ben">
+            <span class="card-title">Project 6</span>
+          </div>
+          <div class="card-content">
+		    <h4 class="flow-text">Feed Reader Testing</h4>
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <ul class="social-connect social-button">
+              <li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icon-github"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div><!-- ./card action -->
+        </div><!-- ./card -->
+      </div><!-- ./col -->
+    </div><!-- ./row -->
+  </div><!-- ./row container -->
+</div><!-- ./section -->
 <!-- =========== ./PROJECTS ============= -->
 
 
@@ -212,11 +369,11 @@
 </div>
 <div class="col l6 s12">
 <h5 class="white-text">Social Connect</h5>
-<ul class="social-network social-circle">
-<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
-<li><a href="https://twitter.com/jaemood/" target="_blank" class="z-depth-2 icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-<li><a href="https://plus.google.com/110080867018847121215/" target="_blank" class="z-depth-2 icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-<li><a href="https://www.linkedin.com/pub/ben-collins/15/663/b43" target="_blank" class="z-depth-2 icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+<ul class="social-connect social-button">
+<li><a href="https://github.com/bendroid/" target="_blank" class="z-depth-2 icon-github" title="Github"><i class="icon fa fa-github"></i></a></li>
+<li><a href="https://twitter.com/jaemood/" target="_blank" class="z-depth-2 icon-twitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://plus.google.com/110080867018847121215/" target="_blank" class="z-depth-2 icon-google" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="https://www.linkedin.com/pub/ben-collins/15/663/b43" target="_blank" class="z-depth-2 icon-linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 </ul>
 </div>
 </div>
