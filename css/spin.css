@@ -1,21 +1,21 @@
-ul.social-connect {
+.social-connect {
 	list-style: none;
 	display: inline;
 	margin-left: 0 !important;
 	padding: 0;
 }
 
-ul.social-connect li {
+.social-connect li {
 	display: inline;
 	margin: 0 5px;
 }
 
-ul.social-connect.social-card li {
+.social-connect.social-card li {
 	display: inline;
 	margin: 0 -5px;
 }
 
-ul.social-connect.social-card {
+.social-connect.social-card {
 	border-top: 1px solid rgba(160,160,160,0.2);
 }
 
@@ -106,6 +106,6 @@ ul.social-connect.social-card {
 	transition: all 0.8s;
 }
 
-ul.social-connect li a {
+.social-connect li a {
  background-color: #D3D3D3;   
 }

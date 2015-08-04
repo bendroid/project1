@@ -38,6 +38,25 @@ p {
   margin: 0 0 15px;
 }
 
+.card .card-reveal {
+  height: 95%;
+}
+
+.card .card-title.activator {
+  width: 100%;
+}
+
+.reveal-footer {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    position: absolute;
+    /*bottom: 15px;*/
+    border-radius: 0 0 2px 2px;
+    background-color: #fafafa;
+    padding: 4px 6px;
+    height: 60px;
+    width: 85%;
+}
+
 .page-footer {
   margin: 0;
 }

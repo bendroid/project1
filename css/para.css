@@ -20,7 +20,7 @@ nav .brand-logo {
   padding: 0;
 }
 
-.card .card-title {
+.card .card-title.overlay {
     color: #fff;
     font-size: 24px;
     font-weight: 300;
