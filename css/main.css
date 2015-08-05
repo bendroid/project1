@@ -2,6 +2,11 @@ nav ul a {
 	color: #fff;
 }
 
+.row.projects {
+  padding: 0;
+  margin: 0 auto;
+}
+
 .brand-logo {
 	color: #fff;
 }
