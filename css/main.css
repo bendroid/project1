@@ -6,6 +6,74 @@ p {
 	line-height: 2rem;
 }
 
+/********* CUSTOM ***************/
+    @media only screen and (min-width : 768px) {
+      .row .col.xm1 {
+        width: 8.33333%;
+        margin-left: 0; }
+      .row .col.xm2 {
+        width: 16.66667%;
+        margin-left: 0; }
+      .row .col.xm3 {
+        width: 25%;
+        margin-left: 0; }
+      .row .col.xm4 {
+        width: 33.33333%;
+        margin-left: 0; }
+      .row .col.xm5 {
+        width: 41.66667%;
+        margin-left: 0; }
+      .row .col.xm6 {
+        width: 50%;
+        margin-left: 0; }
+      .row .col.xm7 {
+        width: 58.33333%;
+        margin-left: 0; }
+      .row .col.xm8 {
+        width: 66.66667%;
+        margin-left: 0; }
+      .row .col.xm9 {
+        width: 75%;
+        margin-left: 0; }
+      .row .col.xm10 {
+        width: 83.33333%;
+        margin-left: 0; }
+      .row .col.xm11 {
+        width: 91.66667%;
+        margin-left: 0; }
+      .row .col.xm12 {
+        width: 100%;
+        margin-left: 0; }
+      .row .col.offset-xm1 {
+        margin-left: 8.33333%; }
+      .row .col.offset-xm2 {
+        margin-left: 16.66667%; }
+      .row .col.offset-xm3 {
+        margin-left: 25%; }
+      .row .col.offset-xm4 {
+        margin-left: 33.33333%; }
+      .row .col.offset-xm5 {
+        margin-left: 41.66667%; }
+      .row .col.offset-xm6 {
+        margin-left: 50%; }
+      .row .col.offset-xm7 {
+        margin-left: 58.33333%; }
+      .row .col.offset-xm8 {
+        margin-left: 66.66667%; }
+      .row .col.offset-xm9 {
+        margin-left: 75%; }
+      .row .col.offset-xm10 {
+        margin-left: 83.33333%; }
+      .row .col.offset-xm11 {
+        margin-left: 91.66667%; }
+      .row .col.offset-xm12 {
+        margin-left: 100%; } }
+/************* END CUSTOM ******************/
+
+.dev-container {
+	width: 70%;
+}
+
 .row.projects {
 	padding: 0;
 	margin: 0 auto;
