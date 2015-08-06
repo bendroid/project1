@@ -6,13 +6,11 @@ p {
 	line-height: 2rem;
 }
 
-.page-container {
-	margin: auto 5%;
-}
-
-.divider {
-	width: 80%;
-	margin: 32px auto;
+.card .card-image .card-title {
+	position: fixed;
+	bottom: 5px;
+	left: 0;
+	padding: 10px;
 }
 
 .card .card-title.overlay {
@@ -21,6 +19,23 @@ p {
 	font-weight: 300;
 	background-color: rgba(25, 137, 212, 0.88);
 	width: 100%;
+}
+
+.page-container {
+	margin: auto 5%;
+}
+
+.drop-link:hover,
+.drop-link:focus,
+.drop-link:visited,
+.drop-link:active {
+	color: #000;
+	background-color: #039be5;
+}
+
+.page-divider {
+	width: 80%;
+	margin: 32px auto;
 }
 
 .row.projects {

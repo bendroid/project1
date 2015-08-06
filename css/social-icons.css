@@ -14,6 +14,10 @@
 	margin: 6px;
 }
 
+.list-inline li:hover {
+	background-color: transparent;
+}
+
 /*Change icons size here*/
 .social-icons .fa {
 	font-size: 1.8em;
