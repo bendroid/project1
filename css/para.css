@@ -20,13 +20,6 @@ nav .brand-logo {
   padding: 0;
 }
 
-.card .card-title.overlay {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 300;
-    background-color: rgba(25, 137, 212, 0.88);
-}
-
 .cover-box {
   background-color: rgba(25, 137, 212, 0.88);
 }
@@ -36,8 +29,8 @@ nav .brand-logo {
 	top: 550px;
 }
 
-.project {
-  padding-top: 50px;
+.page-container {
+  margin: auto 5%;
 }
 
 

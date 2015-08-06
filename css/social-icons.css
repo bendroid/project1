@@ -1,128 +1,173 @@
-ul.social-connect {
-    list-style: none;
-    display: inline;
-    margin-left: 0 !important;
-    padding: 0;
+/* Social icons and container classes */
+.list-nav {
+	margin: 0;
+	padding: 0 5px;
 }
 
-ul.social-connect li {
-    display: inline;
-    margin: 0 5px;
+.list-unstyled {
+	padding: 0;
+	list-style: none;
 }
 
-ul.social-connect.social-card li {
-    display: inline;
-    margin: 0 -5px;
+.list-inline li {
+	display: inline-block;
+	margin: 6px;
 }
 
-.social-connect a.icoRss:hover {
-    background-color: #f56505;
-    border-color: rgba(0,0,0,0.2);
+/*Change icons size here*/
+.social-icons .fa {
+	font-size: 1.8em;
 }
 
-.social-connect a.icoFacebook:hover {
-    background-color: #3b5998;
-    border-color: rgba(0,0,0,0.2);
+/*Icon sizing*/
+.social-icons .fa {
+	width: 48px;
+	height: 48px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
-.social-connect a.icon-twitter:hover {
-    background-color: #55acee;
-    border-color: rgba(0,0,0,0.2);
+/* Icon button shape */
+.social-icons.icon-circle .fa {
+	border-radius: 50%;
 }
 
-.social-connect a.icon-google:hover {
-    background-color: #bd3518;
-    border-color: rgba(0,0,0,0.2);
+.social-icons.icon-rounded .fa {
+	border-radius:5px;
 }
 
-.social-connect a.icoVimeo:hover {
-    background-color: #0590b8;
-    border-color: rgba(0,0,0,0.2);
+.social-icons.icon-flat .fa {
+	border-radius: 0;
 }
 
-.social-connect a.icon-linkedin:hover {
-    background-color: #007bb7;
-    border-color: rgba(0,0,0,0.2);
+/* Icon actions*/
+.social-icons .fa:hover,
+.social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
 }
 
-.social-connect a.icon-github:hover {
-    background-color: #303030;
-    border-color: rgba(0,0,0,0.2);
+.social-icons.icon-zoom .fa:hover,
+.social-icons.icon-zoom .fa:active {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
-.social-connect a.icon-twitter {
-    background-color: #55acee;
-    border-color: rgba(0,0,0,0.2);
+.social-icons.icon-rotate .fa:hover,
+.social-icons.icon-rotate .fa:active,
+.social-icons.icon-rotate .material-icons:hover,
+.social-icons.icon-rotate .material-icons:active {
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
 }
 
-.social-connect a.icon-google {
-    background-color: #bd3518;
-    border-color: rgba(0,0,0,0.2);
+/* Icon button colors */
+.social-icons .fa-adn {
+	background-color:#504e54;
 }
 
-.social-connect a.icoVimeo {
-    background-color: #0590B8;
-    border-color: rgba(0,0,0,0.2);
+.social-icons .fa-apple {
+	background-color: #aeb5c5;
 }
 
-.social-connect a.icon-linkedin {
-    background-color: #007bb7;
-    border-color: rgba(0,0,0,0.2);
+.social-icons .fa-android {
+	background-color:#A5C63B;
 }
 
-.social-connect a.icon-github {
-    background-color: #303030;
-    border-color: rgba(0,0,0,0.2);
+.social-icons .fa-bitcoin,.social-icons .fa-btc {
+	background-color:#F7931A;
 }
 
-.social-connect a.icon-github:hover i,
-.social-connect a.icon-twitter:hover i,
-.social-connect a.icon-google:hover i,
-.social-connect a.icon-linkedin:hover i {
-    color: #fff;
+.social-icons .fa-css3 {
+	background-color:#1572B7;
 }
 
-.social-button li a {
-    display: inline-block;
-    position: relative;
-    margin: 0 auto 0 auto;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    font-size: 22px;
+.social-icons .fa-dropbox {
+	background-color:#018BD3;
 }
 
-.social-button li i {
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
+.social-icons .fa-facebook,
+.social-icons .fa-facebook-square {
+	background-color:#3C599F;
 }
 
-.social-button li a:hover i,
-.triggeredHover {
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms--transform: rotate(360deg);
-    transform: rotate(360deg);
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    transition: all 0.2s;
+.social-icons .fa-github,
+.social-icons .fa-github-alt,
+.social-icons .fa-github-square {
+	background-color:#070709;
 }
 
-.social-button i {
-    color: #fff;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    -ms-transition: all 0.8s;
-    transition: all 0.8s;
+.social-icons .fa-google-plus,
+.social-icons .fa-google-plus-square {
+	background-color:#CF3D2E;
 }
 
-ul.social-connect li a {
-    background-color: #D3D3D3;
+.social-icons .fa-html5 {
+	background-color:#E54D26;
+}
+
+.social-icons .fa-instagram {
+	background-color:#A1755C;
+}
+
+.social-icons .fa-linkedin,
+.social-icons .fa-linkedin-square {
+	background-color:#0085AE;
+}
+.social-icons .fa-linux {
+	background-color:#FBC002;color:#333;
+}
+
+.social-icons .fa-maxcdn {
+	background-color:#F6AE1C;
+}
+
+.social-icons .fa-stack-exchange {
+	background-color:#245590;
+}
+
+.social-icons .fa-stack-overflow {
+	background-color:#FF7300;
+}
+
+.social-icons .fa-twitter,
+.social-icons .fa-twitter-square {
+	background-color:#32CCFE;
+}
+
+ .btn-floating i {
+	color: #fff;
+	font-size: 1.6rem;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.btn-floating:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
 }
