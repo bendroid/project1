@@ -12,6 +12,7 @@ p {
 
 .divider {
   width: 80%;
+  margin: 32px auto;
 }
 
 .card .card-title.overlay {
