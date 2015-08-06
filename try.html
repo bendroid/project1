@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/social-icons.css">
+  <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
@@ -93,19 +94,18 @@
 <div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator responsive-img" src="img/P1.png" srcset="img/P1-3x.png 1400w, img/P1-2x.png 700w, img/P1-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 1">
-<span class="card-title overlay activator white-text text-darken-4">Project 1<a class="valign-wrapper activator light-blue white-text z-depth-2 waves-effect waves-light btn-floating btn material-icons right" href="#!"><i class="activator light-blue white-text z-depth-2 waves-effect waves-light btn-floating btn material-icons right">more_vert</i></a></span>
+<span class="card-title overlay activator white-text text-darken-4">Project 1<button class="valign-wrapper activator light-blue white-text waves-effect waves-light btn-floating btn material-icons right"><i class="activator light-blue white-text z-depth-2 waves-effect waves-light btn-floating btn material-icons right">more_vert</i></button></span>
 </div>
 <div class="card-content">
 <span class="card-title activator grey-text text-darken-2">Build a Portfolio Site</span>
 </div>
 <div class="card-reveal">
-<span class="card-title grey-text text-darken-4">Build a Portfolio Site<a href="#!" class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a></span><hr>
+<span class="card-title grey-text text-darken-4">Build a Portfolio Site<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></span><hr>
 <p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> framework and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/" target="_blank">Udacity Nanodegree</a>. Thank you for your visit!</p>
-<div class="reveal-footer center">
-<ul class="social-icons icon-circle icon-rotate list-unstyled list-inline">
-<li><a href="https://github.com/bendroid/Project-1"><i class="fa fa-github"></i></a></li>
-</ul>
-</div><!-- reveal-footer -->
+<div class="modal-footer">
+    <a class="modal-icon left btn-floating btn-medium" href="https://github.com/bendroid/Project-1"><i class="fa fa-github"></i></a>
+    <button class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
+    </div>
 </div><!-- ./card-reveal -->
 </div><!-- ./card -->
 </div><!-- ./col -->
@@ -129,11 +129,12 @@
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
+      <p class="flow-text card-title grey-text text-darken-4">Build a Portfolio Site<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></p><hr>
+      <p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> framework and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/" target="_blank">Udacity Nanodegree</a>. Thank you for your visit!</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    <a class="modal-icon left btn-floating btn-medium" href="https://github.com/bendroid/Project-1"><i class="fa fa-github"></i></a>
+    <button class="modal-action modal-close btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
     </div>
   </div>
 
