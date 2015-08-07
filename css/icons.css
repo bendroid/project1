@@ -23,8 +23,8 @@
 	transform: scale(1.1) rotate(360deg);
 }
 
-.modal-icons.icon-zoom .fa:hover,
-.modal-icons.icon-zoom .fa:active {
+.modal-icon.icon-zoom .fa:hover,
+.modal-icon.icon-zoom .fa:active {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);

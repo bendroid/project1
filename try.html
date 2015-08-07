@@ -1,33 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <link rel="icon" href="favicons/favicon.ico">
-  <title>TEMP</title>
+  <title>Ben Collins Portfolio</title>
 <!-- CSS  -->
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/social-icons.css">
-  <link rel="stylesheet" href="css/icons.css">
+  <!--<link rel="stylesheet" href="css/icons.css">-->
   <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
 <!-- ======== NAVBAR ======= -->
 <div class="navbar-fixed">
 <nav class="light-blue">
-<div class="nav-wrapper page-container">
+<div class="nav-wrapper nav-container">
+<ul id="slide-out" class="side-nav light-blue">
+<li class="center"><button class="btn-floating btn-medium my-logo"></button></li>
+<li class="divider"></li>
+<li class="light-blue center"><a class="white-text drop-link" href="#projects">Projects</a></li>
+<li class="light-blue center"><a class="white-text drop-link" href="#!">Keep Checking!</a></li>
+<li class="no-padding">
+<ul class="collapsible collapsible-accordion light-blue center">
+<li class="light-blue"><a class="white-text collapsible-header drop-link">Coming Soon!<i class="white-text mdi-navigation-arrow-drop-down"></i></a>
+<div class="collapsible-body drop-link">
+<ul>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#projects">Projects</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">More</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Stuff</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Is</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Coming</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Soon</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">!</a></li>
+<li class="divider"></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Keep Checking!</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
 <ul class="left">
-<li><button class="btn-floating btn-medium my-logo"><a href="#!"></a></li>
+<li><button class="btn-floating btn-medium my-logo"></button></li>
 </ul>
 <a id="logo-container" href="#" class="brand-logo">Ben Collins</a>
 <ul class="right hide-on-med-and-down">
 <li><a href="#projects">Projects</a></li>
-<li><a class="dropdown-button" href="#!" data-activates="dropdownSoon">Coming Soon!<i class="material-icons right">arrow_drop_down</i></a></li>
-</ul>
-<!-- DROPDOWN -->
-<ul id="dropdownSoon" class="dropdown-content light-blue">
+<li><a class="dropdown-button" href="#!" data-activates="dropdownTop">Coming Soon!<i class="mdi-navigation-arrow-drop-down right"></i></a>
+<ul id='dropdownTop' class='dropdown-content'>
 <li class="light-blue"><a class="white-text drop-link" href="#!">More</a></li>
 <li class="light-blue"><a class="white-text drop-link" href="#!">Stuff</a></li>
 <li class="light-blue"><a class="white-text drop-link" href="#!">Is</a></li>
@@ -37,35 +60,24 @@
 <li class="divider"></li>
 <li class="light-blue"><a class="white-text drop-link" href="#!">Keep Checking!</a></li>
 </ul>
+</li>
+</ul>
 <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline right hide-on-med-and-down">
 <li><a class="list-nav" href="#"><i class="fa fa-github"></i></a></li>
 <li><a class="list-nav" href="#"><i class="fa fa-twitter"></i></a></li>
 <li><a class="list-nav" href="#"><i class="fa fa-google-plus"></i></a></li>
 <li><a class="list-nav" href="#"><i class="fa fa-linkedin"></i></a></li>
 </ul>
-<!-- ========= MOBILE NAVBAR ========== -->
-<ul id="nav-mobile" class="side-nav light-blue">
-<li class="light-blue center"><a href="#projects" class="white-text drop-link" alt="Ben"><img src="img/ben-sm.jpg"class="responsive-img circle my-logo"></a></li>
-<li class="divider"></li>
-<li class="light-blue center"><a class="white-text drop-link" href="#projects">Projects</a></li>
-<li class="divider"></li>
-    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
-    <ul id='dropdown1' class='dropdown-content'>
-      <li><a href="#!">First</a></li>
-      <li><a href="#!">Second</a></li>
-      <li><a href="#!">Third</a></li>
-      <li><a href="#!">Fourth</a></li>
-    </ul>
-</ul>
-
-<a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="mdi-navigation-menu"></i></a>
+<a href="#" data-activates="slide-out" class="button-collapse right"><i class="left mdi-navigation-menu"></i></a>
 </div>
 </nav>
 </div><!-- navbar-fixed -->
 
+<a class="social-icons icon-circle icon-rotate list-unstyled list-inline right hide-on-med-and-down" href="#"><i class="fa fa-github"></i></a>
+
 <!-- =========== PAGE HEADER ================= -->
-<div class="container-fluid">
 <header>
+<div class="container-fluid">
 <div class="row">
 <div class="col s12 m8 offset-m2 l8 offset-l2">
 <h1 class="center">Ben Collins<br><small>Front End Develpoer</small></h1>
@@ -79,42 +91,41 @@
 </ul>
 </div>
 <div class="col s12 m10 offset-m1 l10 offset-l1">
-<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> framework and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/" target="_blank">Udacity Nanodegree</a>. Thank you for your visit!</p>
+<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/">Materialize CSS</a> framework and <a href="http://fontawesome.io/">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/">Udacity Nanodegree</a>. Thank you for your visit!</p>
 </div><!-- ./col -->
 </div><!-- ./row -->
-</header>
 </div><!-- ./container -->
-
-<!-- =========== PROJECTS HEADER ================= -->
-<hr id="projects" class="page-divider">
-<header>
-<div class="row">
-<div class="col s12 m8 offset-m2 l8 offset-l2">
-<h1 class="center">Projects<br></h1>
-</div>
-</div><!-- ./row -->
 </header>
+
 
 <!-- =========== CONTENT ================ -->
+<hr id="projects" class="page-divider">
 
 <section>
-<div class="page-container">
+<!-- =========== PROJECTS HEADER ================= -->
+<div class="row">
+<div class="col s12 m8 offset-m2 l8 offset-l2">
+<h2 class="center">Projects</h2>
+</div>
+</div>
+<!-- ./PROJECTS HEADER -->
+<div class="projects-container">
 <div class="row">
 <div class="col s12 m4 l4">
 <div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator responsive-img" src="img/P1.png" srcset="img/P1-3x.png 1400w, img/P1-2x.png 700w, img/P1-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 1">
-<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 1<button class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></button></span>
+<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 1<a class="activator light-blue white-text waves-effect waves-light btn-floating social-icons right"><i class="material-icons">more_vert</i></a></span>
 </div>
 <div class="card-content">
 <span class="card-title activator grey-text text-darken-2">Build a Portfolio Site</span>
 </div>
 <div class="card-reveal">
-<span class="card-title grey-text text-darken-4">Build a Portfolio Site<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></span><hr>
-<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> framework and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/" target="_blank">Udacity Nanodegree</a>. Thank you for your visit!</p>
+<span class="card-title grey-text text-darken-4">Build a Portfolio Site<a class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a></span><hr>
+<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/">Materialize CSS</a> framework and <a href="http://fontawesome.io/">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/">Udacity Nanodegree</a>. Thank you for your visit!</p>
 <div class="modal-footer">
-<button class="modal-icon icon-rotate left btn-floating btn-medium"><a href="https://github.com/bendroid/Project-1" target="_blank"><i class="fa fa-github"></i></a>
-<button class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
+<a class="social-icons icon-circle icon-rotate" href="https://github.com/bendroid/Project-1"><i class="fa fa-github"></i></a>
+<a class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a>
 </div>
 </div><!-- ./card-reveal -->
 </div><!-- ./card -->
@@ -124,17 +135,17 @@
 <div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator responsive-img" src="img/image-src.png" srcset="img/image-3x.png 1400w, img/image-2x.png 700w, img/image-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 2">
-<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 2<button class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></button></span>
+<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 2<a class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></a></span>
 </div>
 <div class="card-content">
 <span class="card-title activator grey-text text-darken-2">Online Resume</span>
 </div>
 <div class="card-reveal">
-<span class="card-title grey-text text-darken-4">Online Resume<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></span><hr>
+<span class="card-title grey-text text-darken-4">Online Resume<a class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a></span><hr>
 <p class="flow-text">Description of my Project 2</p>
 <div class="modal-footer">
-<button class="modal-icon icon-rotate left btn-floating btn-medium"><a href="https://github.com/bendroid/Project-2" target="_blank"><i class="fa fa-github"></i></a>
-<button class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
+<a class="social-icons icon-circle icon-rotate" href="https://github.com/bendroid/Project-12><i class="fa fa-github"></i></a>
+<a class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a>
 </div>
 </div><!-- ./card-reveal -->
 </div><!-- ./card -->
@@ -144,17 +155,17 @@
 <div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator responsive-img" src="img/image-src.png" srcset="img/image-3x.png 1400w, img/image-2x.png 700w, img/image-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 3">
-<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 3<button class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></button></span>
+<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 3<a class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></a></span>
 </div>
 <div class="card-content">
 <span class="card-title activator grey-text text-darken-2">Classic Arcade Game</span>
 </div>
 <div class="card-reveal">
-<span class="card-title grey-text text-darken-4">Classic Arcade Game<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></span><hr>
+<span class="card-title grey-text text-darken-4">Classic Arcade Game<a class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a></span><hr>
 <p class="flow-text">Description of my Project 3</p>
 <div class="modal-footer">
-<button class="modal-icon icon-rotate left btn-floating btn-medium"><a href="https://github.com/bendroid/Project-3" target="_blank"><i class="fa fa-github"></i></a>
-<button class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
+<a class="social-icons icon-circle icon-rotate" href="https://github.com/bendroid/Project-3"><i class="fa fa-github"></i></a>
+<a class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a>
 </div>
 </div><!-- ./card-reveal -->
 </div><!-- ./card -->
@@ -166,17 +177,17 @@
 <div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator responsive-img" src="img/image-src.png" srcset="img/image-3x.png 1400w, img/image-2x.png 700w, img/image-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 4">
-<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 4<button class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></button></span>
+<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 4<a class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></a></span>
 </div>
 <div class="card-content">
 <span class="card-title activator grey-text text-darken-2">Website Optimization</span>
 </div>
 <div class="card-reveal">
-<span class="card-title grey-text text-darken-4">Website Optimization<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></span><hr>
+<span class="card-title grey-text text-darken-4">Website Optimization<a class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a></span><hr>
 <p class="flow-text">Description of my Project 4</p>
 <div class="modal-footer">
-<button class="modal-icon icon-rotate left btn-floating btn-medium"><a href="https://github.com/bendroid/Project-4" target="_blank"><i class="fa fa-github"></i></a>
-<button class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
+<a class="social-icons icon-circle icon-rotate" href="https://github.com/bendroid/Project-4"><i class="fa fa-github"></i></a>
+<a class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a>
 </div>
 </div><!-- ./card-reveal -->
 </div><!-- ./card -->
@@ -186,17 +197,17 @@
 <div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator responsive-img" src="img/image-src.png" srcset="img/image-3x.png 1400w, img/image-2x.png 700w, img/image-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 5">
-<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 5<button class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></button></span>
+<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 5<a class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></a></span>
 </div>
 <div class="card-content">
 <span class="card-title activator grey-text text-darken-2">Neighborhood Map Project</span>
 </div>
 <div class="card-reveal">
-<span class="card-title grey-text text-darken-4">Neighborhood Map Project<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></span><hr>
+<span class="card-title grey-text text-darken-4">Neighborhood Map Project<a class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a></span><hr>
 <p class="flow-text">Description of my Project 5</p>
 <div class="modal-footer">
-<button class="modal-icon icon-rotate left btn-floating btn-medium"><a href="https://github.com/bendroid/Project-5" target="_blank"><i class="fa fa-github"></i></a>
-<button class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
+<a class="social-icons icon-circle icon-rotate" href="https://github.com/bendroid/Project-5"><i class="fa fa-github"></i></a>
+<a class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a>
 </div>
 </div><!-- ./card-reveal -->
 </div><!-- ./card -->
@@ -206,17 +217,17 @@
 <div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
 <img class="activator responsive-img" src="img/image-src.png" srcset="img/image-3x.png 1400w, img/image-2x.png 700w, img/image-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 6">
-<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 6<button class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></button></span>
+<span class="card-title overlay activator white-text waves-effect waves-block waves-light">Project 6<a class="activator light-blue white-text waves-effect waves-light btn-floating material-icons right"><i class="material-icons">more_vert</i></a></span>
 </div>
 <div class="card-content">
 <span class="card-title activator grey-text text-darken-2">Feed Reader Testing</span>
 </div>
 <div class="card-reveal">
-<span class="card-title grey-text text-darken-4">Feed Reader Testing<button class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></span><hr>
+<span class="card-title grey-text text-darken-4">Feed Reader Testing<a class="btn-floating btn light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a></span><hr>
 <p class="flow-text">Description of my Project 6</p>
 <div class="modal-footer">
-<button class="modal-icon icon-rotate left btn-floating btn-medium"><a href="https://github.com/bendroid/Project-6" target="_blank"><i class="fa fa-github"></i></a>
-<button class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
+<a class="social-icons icon-circle icon-rotate" href="https://github.com/bendroid/Project-6"><i class="fa fa-github"></i></a>
+<a class="card-title btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></a>
 </div>
 </div><!-- ./card-reveal -->
 </div><!-- ./card -->
@@ -224,41 +235,6 @@
 </div><!-- ./row -->
 </div><!-- ./PAGE-CONTAINER -->
 </section>
-
-
-
-
-
-
-
-<!-- MODAL EXAMPLE --
-
-<div class="col s12 m4 l4">
-<div class="card hoverable">
-<div class="card-image waves-effect waves-block waves-light">
-<img class="responsive-img" src="img/P1.png" srcset="img/P1-3x.png 1400w, img/P1-2x.png 700w, img/P1-1x.png 400w" sizes="(min-width: 700px) 700px, 100vw" alt="Project 2">
-<span class="card-title overlay white-text waves-effect waves-block waves-light">Project 2<button class="light-blue white-text waves-effect waves-light btn-floating right modal-trigger" href="#modal1"><i class="material-icons">more_vert</i></button></span>
-</div>
-<div class="card-content">
-<span class="card-title grey-text text-darken-2">Online Resume</span>
-</div>
-
-</div>
-</div>
-
-<!-- MODAL STRUCTURE  --
-
-<div id="modal1" class="modal">
-<div class="modal-content">
-<p class="flow-text card-title grey-text text-darken-4">Build a Portfolio Site<button class="modal-action modal-close btn-floating light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button></p><hr>
-<p class="flow-text">This is my Portfolio. It was created using the <a href="http://materializecss.com/" target="_blank">Materialize CSS</a> framework and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>. I will be modifying this portfolio page to add content as I progress through my <a href="https://www.udacity.com/" target="_blank">Udacity Nanodegree</a>. Thank you for your visit!</p>
-</div>
-<div class="modal-footer">
-<button class="modal-icon left btn-floating btn-medium"><a href="https://github.com/bendroid/Project-1" target="_blank"><i class="fa fa-github"></i></a></button>
-<button class="modal-action modal-close btn-floating btn-medium light-blue white-text waves-effect waves-light right"><i class="material-icons">close</i></button>
-</div>
-</div>
---- END MODAL STRUCTURE -->
 
 
 <!-- ========= FOOTER ============= -->
@@ -272,10 +248,10 @@
 <div class="col l6 s12">
 <h5 class="white-text">Social Connect</h5>
 <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline">
-<li><a href="https://github.com/bendroid" target="_blank"><i class="fa fa-github"></i></a></li>
-<li><a href="#!" target="_blank"><i class="fa fa-twitter"></i></a></li>
-<li><a href="#!" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-<li><a href="#!" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="https://github.com/bendroid"><i class="fa fa-github"></i></a></li>
+<li><a href="#!"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#!"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="#!"><i class="fa fa-linkedin"></i></a></li>
 </ul>
 </div><!-- ./col -->
 </div><!-- ./row -->

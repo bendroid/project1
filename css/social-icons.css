@@ -43,14 +43,6 @@
 	border-radius: 50%;
 }
 
-.social-icons.icon-rounded .fa {
-	border-radius:5px;
-}
-
-.social-icons.icon-flat .fa {
-	border-radius: 0;
-}
-
 /* Icon actions*/
 .social-icons .fa:hover,
 .social-icons .fa:active {
@@ -70,9 +62,7 @@
 }
 
 .social-icons.icon-rotate .fa:hover,
-.social-icons.icon-rotate .fa:active,
-.social-icons.icon-rotate .material-icons:hover,
-.social-icons.icon-rotate .material-icons:active {
+.social-icons.icon-rotate .fa:active {
 	-webkit-transform: scale(1.1) rotate(360deg);
 	-moz-transform: scale(1.1) rotate(360deg);
 	-ms-transform: scale(1.1) rotate(360deg);
@@ -81,9 +71,6 @@
 }
 
 /* Icon button colors */
-.social-icons .fa-adn {
-	background-color:#504e54;
-}
 
 .social-icons .fa-apple {
 	background-color: #aeb5c5;
@@ -152,26 +139,4 @@
 .social-icons .fa-twitter,
 .social-icons .fa-twitter-square {
 	background-color:#32CCFE;
-}
-
- .btn-floating i {
-	color: #fff;
-	font-size: 1.6rem;
-	-webkit-transition: all 0.8s;
-	-moz-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	-ms-transition: all 0.8s;
-	transition: all 0.8s;
-}
-
-.btn-floating:hover i, .triggeredHover {
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-ms--transform: rotate(360deg);
-	transform: rotate(360deg);
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	transition: all 0.2s;
 }

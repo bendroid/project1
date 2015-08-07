@@ -17,30 +17,41 @@
 <body>
 <!-- ======== NAVBAR ======= -->
 
-<nav class="blue">
+<nav class="light-blue">
 <div class="nav-wrapper page-container">
-    <ul id="slide-out" class="side-nav">
-    <li><a href="#!">First Sidebar Link</a></li>
-    <li><a href="#!">Second Sidebar Link</a></li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <li>
-          <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
-          <div class="collapsible-body">
+    <ul id="slide-out" class="side-nav light-blue">
+	<li class="light-blue center"><a href="#projects" class="white-text drop-link" alt="Ben"><img src="img/ben-sm.jpg"class="responsive-img circle my-logo"></a></li>
+	<li class="divider"></li>
+<li class="light-blue center"><a class="white-text drop-link" href="#projects">Projects</a></li>
+<li class="light-blue center"><a class="white-text drop-link" href="#!">Keep Checking!</a></li>
+      <ul class="collapsible collapsible-accordion light-blue center">
+        <li class="light-blue"><a class="white-text collapsible-header drop-link">Coming Soon!<i class="white-text mdi-navigation-arrow-drop-down"></i></a>
+          <div class="collapsible-body drop-link">
+		  <!-- TOP NAV -->
+		  
             <ul>
-              <li><a href="#!">First</a></li>
-              <li><a href="#!">Second</a></li>
-              <li><a href="#!">Third</a></li>
-              <li><a href="#!">Fourth</a></li>
+			<li class="light-blue darken-3"><a class="white-text drop-link" href="#projects">Projects</a></li>
+              <li class="light-blue darken-3"><a class="white-text drop-link" href="#!">More</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Stuff</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Is</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Coming</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Soon</a></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">!</a></li>
+<li class="divider"></li>
+<li class="light-blue darken-3"><a class="white-text drop-link" href="#!">Keep Checking!</a></li>
             </ul>
           </div>
         </li>
       </ul>
-    </li>
+
   </ul>
+  <ul class="left">
+<li><button class="btn-floating btn-medium my-logo"><a href="#!"></a></li>
+</ul>
+<a id="logo-container" href="#" class="brand-logo">Ben Collins</a>
   <ul class="right hide-on-med-and-down">
-    <li><a href="#!">First Sidebar Link</a></li>
-    <li><a href="#!">Second Sidebar Link</a></li>
+    <li><a href="#projects">Projects</a></li>
+	<li><a href="#!">First Link</a></li>
     <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
     <ul id='dropdown1' class='dropdown-content'>
 <li class="light-blue"><a class="white-text drop-link" href="#!">More</a></li>
@@ -53,7 +64,13 @@
 <li class="light-blue"><a class="white-text drop-link" href="#!">Keep Checking!</a></li>
     </ul>
   </ul>
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+  <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline right hide-on-med-and-down">
+<li><a class="list-nav" href="#"><i class="fa fa-github"></i></a></li>
+<li><a class="list-nav" href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a class="list-nav" href="#"><i class="fa fa-google-plus"></i></a></li>
+<li><a class="list-nav" href="#"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+  <a href="#" data-activates="slide-out" class="button-collapse right"><i class="left mdi-navigation-menu"></i></a>
 </div>
 </nav>
 
@@ -104,7 +121,6 @@
 <!-- =========== SCRIPTS =========== -->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
 <script src="js/init.js"></script>
 
   </body>
